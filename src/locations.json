@@ -1,0 +1,310 @@
+[
+  {
+    "name": "Centro Comunitário do Bairro Tapera Grande ",
+    "address": {
+      "street": "Rua Diogo Montanhez",
+      "number": "s/n",
+      "neighborhood": "B. Tapera Grande"
+    },
+    "phone": "(11) 4594-1181",
+    "fullAddress": "Rua Diogo Montanhez, S/N - Tapera Grande, Itatiba - SP, Brazil",
+    "location": {
+      "lat": -23.0513658,
+      "lng": -46.87766569999999
+    }
+  },
+  {
+    "name": "Parque Luís Latorre",
+    "address": {
+      "street": "Avenida Prefeito Erasmo Chrispim",
+      "number": "100",
+      "neighborhood": null
+    },
+    "phone": "(11) 4594-9243",
+    "fullAddress": "Avenida Prefeito Erasmo Chrispim, Itatiba - SP, 13255-130, Brazil",
+    "location": {
+      "lat": -23.0276848,
+      "lng": -46.8379272
+    }
+  },
+  {
+    "name": "ESF 02 e 03 - Cecap \"José Franciscon\" ",
+    "address": {
+      "street": "Av. Benedito de Godoy Camargo",
+      "number": "55",
+      "neighborhood": "N.R. Doutor Luiz de Mattos Pimenta"
+    },
+    "phone": null,
+    "fullAddress": "Av. Benedito de Godoy Camargo, 55 - Nucleo Res. Dr. Luiz de Mattos Pimenta, Itatiba - SP, 13255-551, Brazil",
+    "location": {
+      "lat": -23.0237027,
+      "lng": -46.8486483
+    }
+  },
+  {
+    "name": "Centro Comunitário do Conjunto Habitacional \"Dr. Luiz Matos Pimenta\" ",
+    "address": {
+      "street": "Praça Tonico Machado",
+      "number": "s/n",
+      "neighborhood": "C.H. Dr. Pimenta"
+    },
+    "phone": "(11)4538-5030",
+    "fullAddress": "Praça Tonico Machado - R. João Coleti, 155-197 - Nucleo Res. Dr. Luiz de Mattos Pimenta, Itatiba - SP, Brazil",
+    "location": {
+      "lat": -23.0215412,
+      "lng": -46.85057579999999
+    }
+  },
+  {
+    "name": "CTA - Centro de Testagem e Aconselhamento",
+    "address": {
+      "street": "Rua Pompéia",
+      "number": "45",
+      "neighborhood": "Giardino D\"Itália"
+    },
+    "phone": "(11) 4534-0832 (11)4594-5137",
+    "fullAddress": "R. Pompéia, 45 - Giardino D' Itália, Itatiba - SP, Brazil",
+    "location": {
+      "lat": -23.016947,
+      "lng": -46.8487683
+    }
+  },
+  {
+    "name": "ESF 05 - Zupardo \"Dr. João Batista Mattioli\"",
+    "address": {
+      "street": "Rua Antonio João Batista Andreatta",
+      "number": "s/n",
+      "neighborhood": "N.R. Afonso Zupardo"
+    },
+    "phone": "(11) 4524.3217",
+    "fullAddress": "R. Antônio João Batista Andreata - N R Afonso Zupardo, Itatiba - SP, Brazil",
+    "location": {
+      "lat": -23.0114838,
+      "lng": -46.85970589999999
+    }
+  },
+  {
+    "name": "Ambulatório Central de Especialidades (Secretaria da Saúde)",
+    "address": {
+      "street": "Av. Marcos Dian",
+      "number": "365",
+      "neighborhood": null
+    },
+    "phone": "(11) 4524-0934",
+    "fullAddress": "R. Marcos Dian, 365 - Jardim de Lucca, Itatiba - SP, 13255-210, Brazil",
+    "location": {
+      "lat": -23.0127069,
+      "lng": -46.8390212
+    }
+  },
+  {
+    "name": "CEMEI \" Amália Tereza Galante Rossetti\"",
+    "address": {
+      "street": "Rua Pedro Soares Penteado",
+      "number": "153",
+      "neighborhood": "Vila Cristo Redentor"
+    },
+    "phone": "(11)4524-6466",
+    "fullAddress": "R. Pedro Soares Penteado, 153 - Vila Santa Cruz, Itatiba - SP, 13251-450, Brazil",
+    "location": {
+      "lat": -22.9991821,
+      "lng": -46.8382453
+    }
+  },
+  {
+    "name": "EMEB Cel. Júlio César",
+    "address": {
+      "street": "Rua Rangel Pestana",
+      "number": "326",
+      "neighborhood": "Centro"
+    },
+    "phone": "(11) 4538-1443",
+    "fullAddress": "R. Rangel Pestana, 326 - Centro, Itatiba - SP, 13250-250, Brazil",
+    "location": {
+      "lat": -23.0060959,
+      "lng": -46.84242769999999
+    }
+  },
+  {
+    "name": "ESF 09 e 13 - Centenário \"Dr. Euclides Deantoni\"",
+    "address": {
+      "street": "Rua João Pellizzer",
+      "number": "160",
+      "neighborhood": "Vila Centenário"
+    },
+    "phone": "(11) 4538-8679 e (11) 4487-7739",
+    "fullAddress": "Rua João Pellizzer, 160 - Jd Centenário, Itatiba - SP, 13253-330, Brazil",
+    "location": {
+      "lat": -23.005393,
+      "lng": -46.82646099999999
+    }
+  },
+  {
+    "name": "Centro Comunitário do Núcleo Residencial \"Jardim Harmonia\" ",
+    "address": {
+      "street": "Rua Santo Antonio",
+      "number": "s/n",
+      "neighborhood": "N.R. Jardim Harmonia"
+    },
+    "phone": "(11)4487-2414",
+    "fullAddress": "R. Santo Antônio, Itatiba - SP, Brazil",
+    "location": {
+      "lat": -22.9991045,
+      "lng": -46.8174569
+    }
+  },
+  {
+    "name": "ESF 06, 07 - San Francisco \"Clélio Antonio Rela\" e 16 ( Mario Vitiello)",
+    "address": {
+      "street": "Av. Antonio Nardi",
+      "number": "260",
+      "neighborhood": "Parque San Franscisco"
+    },
+    "phone": "(11) 4524-2361 e (11) 4487-2127",
+    "fullAddress": "Av. Antônio Nardi, 260 - Parque Sao Francisco, Itatiba - SP, 13254-260, Brazil",
+    "location": {
+      "lat": -23.0072506,
+      "lng": -46.8161888
+    }
+  },
+  {
+    "name": "CEMEI Profª. Maria Helena Pensado Bianchi ",
+    "address": {
+      "street": "Rua Rodrigo Rodrigues",
+      "number": "45",
+      "neighborhood": "Loteamento Terra Nova"
+    },
+    "phone": "(11)4524-0510",
+    "fullAddress": "Rua Rodrigo Rodrigues, 45 - Loteamento Terra Nova, Itatiba - SP, 13256-569, Brazil",
+    "location": {
+      "lat": -23.0051887,
+      "lng": -46.8643306
+    }
+  },
+  {
+    "name": "U.B.S Cruzeiro \"Antonio João Batista Andreatta\" ",
+    "address": {
+      "street": "Rua Eugênio Joly",
+      "number": "21",
+      "neighborhood": "Vila Cruzeiro"
+    },
+    "phone": "(11) 4594 - 1824",
+    "fullAddress": "R. Eugênio Joli, 21 - Vila Cruzeiro, Itatiba - SP, 13257-010, Brazil",
+    "location": {
+      "lat": -22.9987868,
+      "lng": -46.8490097
+    }
+  },
+  {
+    "name": "CAC - Centro de Atenção da Criança",
+    "address": {
+      "street": "Rua Quintino Bocaiúva",
+      "number": "404",
+      "neighborhood": null
+    },
+    "phone": "(11)4524-0335",
+    "fullAddress": "R. Quintino Bocaiúva, 404 - Centro, Itatiba - SP, 13250-320, Brazil",
+    "location": {
+      "lat": -23.0056943,
+      "lng": -46.8404397
+    }
+  },
+  {
+    "name": "ESF 18 - Jardim Galetto \"Dr. Glauco Murulo Matiuzzo\"",
+    "address": {
+      "street": "Rua Fabio Zuiani",
+      "number": "508",
+      "neighborhood": "Jardim Galetto"
+    },
+    "phone": "(11) 4487-7294",
+    "fullAddress": "R. Fábio Zuiani, 508 - Jardim Galetto, Itatiba - SP, 13253-150, Brazil",
+    "location": {
+      "lat": -23.0114872,
+      "lng": -46.8211382
+    }
+  },
+  {
+    "name": "Associação dos Moradores",
+    "address": {
+      "street": "Tv. Mario Generoso",
+      "number": "s/n",
+      "neighborhood": "São Francisco"
+    },
+    "phone": null,
+    "fullAddress": "Tv. Mario Generoso - Parque Sao Francisco, Itatiba - SP, Brazil",
+    "location": {
+      "lat": -23.0083121,
+      "lng": -46.8149036
+    }
+  },
+  {
+    "name": "Ecoponto Jardim Vitória",
+    "address": {
+      "street": "Travessia Idalina Leardine",
+      "number": "01",
+      "neighborhood": null
+    },
+    "phone": null,
+    "fullAddress": "Tv. Idalina Leardine, 1 - Jardim Mexico, Itatiba - SP, 13253-412, Brazil",
+    "location": {
+      "lat": -23.0045484,
+      "lng": -46.8237551
+    }
+  },
+  {
+    "name": "Ecoponto San Francisco",
+    "address": {
+      "street": "Avenida Neide Vieira de Almeida Barbosa",
+      "number": "501",
+      "neighborhood": null
+    },
+    "phone": null,
+    "fullAddress": "R. Piza e Almeida, Itatiba - SP, Brazil",
+    "location": {
+      "lat": -23.009371,
+      "lng": -46.8376362
+    }
+  },
+  {
+    "name": "Ecoponto Jardim Novo Horizonte",
+    "address": {
+      "street": "Rua Luiz Jarussi",
+      "number": "1000",
+      "neighborhood": null
+    },
+    "phone": null,
+    "fullAddress": "Rua Luiz Jarussi, 1000 - Vila Santa Cruz, Itatiba - SP, 13251-500, Brazil",
+    "location": {
+      "lat": -22.9945059,
+      "lng": -46.8338996
+    }
+  },
+  {
+    "name": "Ecoponto N.R. Porto Seguro",
+    "address": {
+      "street": "Rua Urbano Bezana",
+      "number": "250",
+      "neighborhood": null
+    },
+    "phone": null,
+    "fullAddress": "Av. Urbâno Bezana, 250 - Nucleo Res. Porto Seguro, Itatiba - SP, 13255-650, Brazil",
+    "location": {
+      "lat": -23.0260193,
+      "lng": -46.85230199999999
+    }
+  },
+  {
+    "name": "Ecoponto Jardim das Nações",
+    "address": {
+      "street": "Avenida Vicente Catalani",
+      "number": "1685",
+      "neighborhood": null
+    },
+    "phone": null,
+    "fullAddress": "Av. Vicente Catalani, 1685 - Jardim das Nacoes, Itatiba - SP, 13256-700, Brazil",
+    "location": {
+      "lat": -23.0098336,
+      "lng": -46.8643242
+    }
+  }
+]
