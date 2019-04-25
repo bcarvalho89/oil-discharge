@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
+import './styles.css';
 
-const myLocal = [-46.8202043, -22.9960313];
-const myLocals = require('./locations.json');
-
+const allLocals = require('./locations.json');
 const haversineDistance = (latlngA, latlngB, isMiles) => {
   const toRad = x => (x * Math.PI) / 180;
   const R = 6371; // km
@@ -22,24 +21,47 @@ const haversineDistance = (latlngA, latlngB, isMiles) => {
   return Math.round(distance * 100) / 100;
 }
 
-
 export default class App extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      locals: myLocals
+      locals: allLocals,
+      currentPosition: null,
+      geolocalizationPermited: false
     }
   }
 
-  componentDidMount() {
-    this.addDistanceInLocals();
+  componentWillMount() {
+    this.findCoordinates();
   }
+
+  findCoordinates = () => {
+    navigator.geolocation.getCurrentPosition(
+      position => {
+        const location = {
+          lat: position.coords.latitude,
+          lng: position.coords.longitude
+        };
+
+        this.setState({
+          currentPosition: location,
+          geolocalizationPermited: true
+        });
+
+        this.addDistanceInLocals();
+      },
+      error => {
+        console.log(error);
+      },
+      { enableHighAccuracy: true, timeout: 20000, maximumAge: 1000 }
+    );
+  };
 
   addDistanceInLocals() {
     this.setState(state => {
       const locals = state.locals.map((local, j) => {
-        const distance = haversineDistance(myLocal, [local.location.lng, local.location.lat]);
+        const distance = haversineDistance([this.state.currentPosition.lng, this.state.currentPosition.lat], [local.location.lng, local.location.lat]);
         local.distance = distance;
 
         return local;
@@ -63,7 +85,12 @@ export default class App extends Component {
 
   renderLocals = () => {
     return this.state.locals.map((local, i) => {
-      return <li key={i}>{local.name} - Distância: { local.distance } km</li>
+      return (
+        <div className="local" key={i}>
+          <p>{local.name}</p>
+          <p><strong>Distância:</strong> { local.distance } km</p>
+        </div>
+      )
     });
   }
 
@@ -73,11 +100,25 @@ export default class App extends Component {
     locals.sort(this.orderLocalsByDistance);
 
     return (
-      <div className="App">
-        <h1>Locals</h1>
-        <ul>
-          { this.renderLocals() }
-        </ul>
+      <div className="app">
+        <div className="container">
+          <header className="header">
+            <h1>Locais de coleta de óleo</h1>
+          </header>
+
+          { !this.state.geolocalizationPermited &&
+            <div className="alert">
+              <h3>Atenção!</h3>
+              <p>Permita a localização</p>
+            </div>
+          }
+
+          { this.state.geolocalizationPermited &&
+            <div className="locations">
+              { this.renderLocals() }
+            </div>
+          }
+        </div>
       </div>
     )
   }

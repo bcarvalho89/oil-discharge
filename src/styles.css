@@ -1,0 +1,76 @@
+/* Reset and Presets */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.3;
+  color: #333;
+  background-color: #fffccc;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  overflow-x: hidden;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  transition: .2s;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: top;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.container {
+  max-width: 750px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  font-size: .8rem;
+  margin: 30px 0;
+}
+
+.alert {
+  background: #ce8484;
+  padding: 30px 20px;
+  margin: 30px 0;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.local {
+  margin-bottom: 15px;
+}
